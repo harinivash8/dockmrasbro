@@ -7,7 +7,7 @@ days = [
     {"id": 4, "name": "Thursday"},
     {"id": 5, "name": "Friday"},
     {"id": 6, "name": "Saturday"},
-    {"id": 7, "name": "Sunday"},
+    {"id": 7, "name": "change"},
 ]
 
 app = Flask(__name__)
