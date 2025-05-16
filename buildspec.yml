@@ -25,4 +25,5 @@ phases:
       - printf '[{"name":"omr","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 
 artifacts:
-  files: imagedefinitions.json:contentReference[oaicite:10]{index=10}
+  files:
+    - imagedefinitions.json
